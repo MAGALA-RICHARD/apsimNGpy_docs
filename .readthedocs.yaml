@@ -1,7 +1,7 @@
 version: "0.32"
 
 build:
-  os: "Windows", 'MacOS'
+  os: "Windows"
   tools:
     python: "3.8"
 
