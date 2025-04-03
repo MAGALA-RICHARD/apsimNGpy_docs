@@ -21,10 +21,10 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['sphinx.ext.duration',
 'sphinx.ext.napoleon',
-                    # 'sphinx.ext.doctest',
-                    # 'sphinx.ext.autodoc',
-                    # 'sphinx.ext.autosummary',
-                    # "sphinx.ext.intersphinx",
+                    'sphinx.ext.doctest',
+                    'sphinx.ext.autodoc',
+                    'sphinx.ext.autosummary',
+                    "sphinx.ext.intersphinx",
                     ]
 
 intersphinx_mapping = {
@@ -47,5 +47,5 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", '.apsimx', '.db']
 
 html_static_path = ['_static']
 
-import sys, os
-sys.path.insert(0, os.path.abspath('../..'))
+import os, sys
+sys.path.insert(0, os.path.abspath('./'))

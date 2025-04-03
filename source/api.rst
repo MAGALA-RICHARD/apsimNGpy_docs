@@ -1,7 +1,8 @@
-API
-===
+API Reference
+=============
 
 .. autosummary::
    :toctree: generated
+   :recursive:
 
-   lumache
+   apsimNGpy
